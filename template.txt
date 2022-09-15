@@ -1,0 +1,8 @@
+if {{asset}} == "Juan":
+    print("Juan")
+else:
+    print("Perez")
+
+{% for item in tag %}
+print({{item}})
+{% endfor %}
